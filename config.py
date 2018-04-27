@@ -16,11 +16,11 @@ REDUCTION_FACTOR = 2    # This value can be changed. In the Tacotron paper,
                         # that numbers as large as 5 worked well
 
 # directories
-LOG_DIR = 'C:\\Users\\Sabrina\\Documents\\UTSA\\Intro to AI\\Group Project\\data_lj_1'
+LOG_DIR = 'datalog'
 MODEL_NAME = 'model-3254.meta'
 DATA_PATH = 'data/LJ/LJSpeech-1.1'
-TEST_DATA = 'C:\\Users\\Sabrina\\Documents\\UTSA\\Intro to AI\\Group Project\\test_data.txt'
-SAVE_DIR = 'C:\\Users\\Sabrina\\Documents\\UTSA\\Intro to AI\\Group Project\\synth_lj_1'
+TEST_DATA = 'data/test_data.txt'
+SAVE_DIR = '/synthout'
 DEVICE = '/cpu:0'
 
 # Signal Processing
