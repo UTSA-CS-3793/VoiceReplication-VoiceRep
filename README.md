@@ -3,14 +3,15 @@ Our goal was to create an End-To-End Text-to-Speech model that is capable of syn
 
 ## Installation Instructions. 
 1. Download the code. Download the [LJ Speech Dataset](https://keithito.com/LJ-Speech-Dataset/).
-2. Modify these variables in `config.py`. 
+2. Download the [model](https://drive.google.com/drive/folders/1ch4Bus-b1kdShmdhEiUQ5ePYcM2azhZu). The model was too big to push to Github and was instead stored in a Google drive.
+3. Modify these variables in `config.py`. 
    - `LOG_DIR`: location of model checkpoints
    - `MODEL_NAME`: the name of the model file to load
    - `DATA_PATH`: location of the dataset
    - `TEST_DATA`: if not passing in text to predict the audio output, the contents of this text file are used to synthesize audio
    - `SAVE_DIR`: where to save synthesized outputs
    - `DEVICE`: cpu or gpu depending on your computer
-3. Modify the paths in `Model/checkpoint`
+4. Modify the paths in `Model/checkpoint`
    
 ## Instruction to Run
 1. Training - run `train.py` to train
