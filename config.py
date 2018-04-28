@@ -17,7 +17,7 @@ REDUCTION_FACTOR = 2    # This value can be changed. In the Tacotron paper,
 
 # directories
 LOG_DIR = 'datalog'
-MODEL_NAME = 'model-3254.meta'
+MODEL_NAME = 'model-3388.meta'
 DATA_PATH = 'data/LJ/LJSpeech-1.1'
 TEST_DATA = 'data/test_data.txt'
 SAVE_DIR = '/synthout'
