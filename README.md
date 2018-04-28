@@ -1,5 +1,5 @@
 # TayTech
-Our goal was to create an End-To-End Text-to-Speech model that is capable of synthesizing Morgan Freeman's voice from text. We replicated the [Tacotron](https://arxiv.org/abs/1703.10135) model designed by Google. We were able to replicate the model, however the lack of Morgan Freeman audio prevented us from generating his voice. Thus we switched to the [LJ Speech Dataset](https://keithito.com/LJ-Speech-Dataset/) to train our model.  
+Our goal was to create an End-To-End Text-to-Speech model that is capable of synthesizing Morgan Freeman's voice from text. We replicated the [Tacotron](https://arxiv.org/abs/1703.10135) model designed by Google. We were able to replicate the model. However, the lack of Morgan Freeman audio prevented us from generating his voice. Thus we switched to the [LJ Speech Dataset](https://keithito.com/LJ-Speech-Dataset/) to train our model.  
 
 ## Installation Instructions. 
 1. Download the code. Download the [LJ Speech Dataset](https://keithito.com/LJ-Speech-Dataset/).
