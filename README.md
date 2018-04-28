@@ -1,5 +1,5 @@
 # TayTech
-We wished to create an End-To-End Text-to-Speech model that is capable of synthesizing Morgan Freeman's voice from text. We replicated the [Tacotron](https://arxiv.org/abs/1703.10135) model designed by Google. We were able to replicate the model, however the lack of Morgan Freeman audio prevented us from generating his voice. Thus we switched to the [LJ Speech Dataset](https://keithito.com/LJ-Speech-Dataset/).  
+Our goal was to create an End-To-End Text-to-Speech model that is capable of synthesizing Morgan Freeman's voice from text. We replicated the [Tacotron](https://arxiv.org/abs/1703.10135) model designed by Google. We were able to replicate the model, however the lack of Morgan Freeman audio prevented us from generating his voice. Thus we switched to the [LJ Speech Dataset](https://keithito.com/LJ-Speech-Dataset/) to train our model.  
 
 ## Installation Instructions. 
 1. Download the code. Download the [LJ Speech Dataset](https://keithito.com/LJ-Speech-Dataset/).
@@ -7,10 +7,11 @@ We wished to create an End-To-End Text-to-Speech model that is capable of synthe
    - `LOG_DIR`: location of model checkpoints
    - `MODEL_NAME`: the name of the model file to load
    - `DATA_PATH`: location of the dataset
-   - `TEST_DATA`: text file used to synthesize audio if not passing in text to predict in the code
+   - `TEST_DATA`: if not passing in text to predict the audio output, the contents of this text file are used to synthesize audio
    - `SAVE_DIR`: where to save synthesized outputs
    - `DEVICE`: cpu or gpu depending on your computer
- hangin
+3. Modify the paths in `Model/checkpoint`
+   
 ## Instruction to Run
 1. Training - run `train.py` to train
 2. Evaluation - run `eval.py` to evaluate
