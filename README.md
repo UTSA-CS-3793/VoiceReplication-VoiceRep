@@ -11,7 +11,7 @@ Our goal was to create an End-To-End Text-to-Speech model that is capable of syn
    - `TEST_DATA`: if not passing in text to predict the audio output, the contents of this text file are used to synthesize audio
    - `SAVE_DIR`: where to save synthesized outputs
    - `DEVICE`: cpu or gpu depending on your computer
-4. Modify the paths in `Model/checkpoint`
+4. Modify the paths in `checkpoint` in the downloaded [model](https://drive.google.com/drive/folders/1ch4Bus-b1kdShmdhEiUQ5ePYcM2azhZu).
    
 ## Instruction to Run
 1. Training - run `train.py` to train
